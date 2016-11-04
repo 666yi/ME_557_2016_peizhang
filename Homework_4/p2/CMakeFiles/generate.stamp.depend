@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/3.7.0-rc2/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/3.7.0-rc2/CMakeCCompiler.cmake
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/3.7.0-rc2/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/3.7.0-rc2/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+I:/HCI-557-CG/SDK/cmake/FindGlew.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+I:/HCI-557-CG/SDK/cmake/FindGlm.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+I:/HCI-557-CG/SDK/cmake/FindGlfw3.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake

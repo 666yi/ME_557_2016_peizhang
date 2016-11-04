@@ -1,0 +1,3 @@
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/HCI557_Multi_Texture.dir
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/ALL_BUILD.dir
+C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/CMakeFiles/ZERO_CHECK.dir

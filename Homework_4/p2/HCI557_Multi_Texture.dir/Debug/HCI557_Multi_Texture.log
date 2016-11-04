@@ -1,0 +1,26 @@
+﻿Build started 11/4/2016 10:58:36 AM.
+     1>Project "C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\HCI557_Multi_Texture.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"I:\HCI-557-CG\SDK\include" /I"I:\HCI-557-CG\13_Multi_Texturing\..\gl_common" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"HCI557_Multi_Texture.dir\Debug\\" /Fd"HCI557_Multi_Texture.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "I:\HCI-557-CG\13_Multi_Texturing\main_multi_texture.cpp"
+         main_multi_texture.cpp
+     1>I:\HCI-557-CG\13_Multi_Texturing\main_multi_texture.cpp(81): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\13_Multi_Texturing\main_multi_texture.cpp(92): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\13_Multi_Texturing\main_multi_texture.cpp(95): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\Debug\HCI557_Multi_Texture.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "I:\HCI-557-CG\SDK\lib\glew32.lib" "I:\HCI-557-CG\SDK\lib\Release\glfw.lib" glu32.lib opengl32.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/Debug/HCI557_Multi_Texture.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/Debug/HCI557_Multi_Texture.lib" /MACHINE:X64  /machine:x64 HCI557_Multi_Texture.dir\Debug\main_multi_texture.obj
+         HCI557_Multi_Texture.dir\Debug\HCI557Common.obj
+         HCI557_Multi_Texture.dir\Debug\controls.obj
+         HCI557_Multi_Texture.dir\Debug\CoordSystem.obj
+         HCI557_Multi_Texture.dir\Debug\GLObject.obj
+         HCI557_Multi_Texture.dir\Debug\GLSphere.obj
+         HCI557_Multi_Texture.dir\Debug\Shaders.obj
+         HCI557_Multi_Texture.dir\Debug\Plane3D.obj
+         HCI557_Multi_Texture.dir\Debug\Texture.obj
+         HCI557_Multi_Texture.dir\Debug\GLAppearance.obj
+         HCI557_Multi_Texture.dir\Debug\camera.obj
+         HCI557_Multi_Texture.vcxproj -> C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\Debug\HCI557_Multi_Texture.exe
+     1>Done Building Project "C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\HCI557_Multi_Texture.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

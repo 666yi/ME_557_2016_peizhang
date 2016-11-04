@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7EA893AE-4540-3A3F-A30C-6730FD29275E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>HCI557_Multi_Texture</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HCI557_Multi_Texture.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HCI557_Multi_Texture</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HCI557_Multi_Texture.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HCI557_Multi_Texture</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HCI557_Multi_Texture.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HCI557_Multi_Texture</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HCI557_Multi_Texture.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HCI557_Multi_Texture</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;I:\HCI-557-CG\SDK\lib\glew32.lib;I:\HCI-557-CG\SDK\lib\Release\glfw.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/Debug/HCI557_Multi_Texture.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/Debug/HCI557_Multi_Texture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;I:\HCI-557-CG\SDK\lib\glew32.lib;I:\HCI-557-CG\SDK\lib\Release\glfw.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/Release/HCI557_Multi_Texture.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/Release/HCI557_Multi_Texture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;I:\HCI-557-CG\SDK\lib\glew32.lib;I:\HCI-557-CG\SDK\lib\Release\glfw.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/MinSizeRel/HCI557_Multi_Texture.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/MinSizeRel/HCI557_Multi_Texture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\HCI-557-CG\SDK\include;I:\HCI-557-CG\13_Multi_Texturing\..\gl_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;I:\HCI-557-CG\SDK\lib\glew32.lib;I:\HCI-557-CG\SDK\lib\Release\glfw.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/RelWithDebInfo/HCI557_Multi_Texture.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/RelWithDebInfo/HCI557_Multi_Texture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HI:/HCI-557-CG/13_Multi_Texturing "-BC:/Users/Pei/Documents/Visual Studio 2015/CMake_Project" --check-stamp-file "C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;I:\HCI-557-CG\SDK\cmake\FindGlew.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlm.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlfw3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HI:/HCI-557-CG/13_Multi_Texturing "-BC:/Users/Pei/Documents/Visual Studio 2015/CMake_Project" --check-stamp-file "C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;I:\HCI-557-CG\SDK\cmake\FindGlew.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlm.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlfw3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HI:/HCI-557-CG/13_Multi_Texturing "-BC:/Users/Pei/Documents/Visual Studio 2015/CMake_Project" --check-stamp-file "C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;I:\HCI-557-CG\SDK\cmake\FindGlew.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlm.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlfw3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HI:/HCI-557-CG/13_Multi_Texturing "-BC:/Users/Pei/Documents/Visual Studio 2015/CMake_Project" --check-stamp-file "C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:/HCI-557-CG/13_Multi_Texturing/CMakeLists.txt;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;I:\HCI-557-CG\SDK\cmake\FindGlew.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlm.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\SDK\cmake\FindGlfw3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Pei\Documents\Visual Studio 2015\CMake_Project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\HCI557Common.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\controls.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\CoordSystem.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLObject.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLSphere.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\Shaders.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\Plane3D.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\Texture.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\HCI557Datatypes.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLAppearanceBase.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLAppearance.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\camera.h" />
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLObjects3D.h" />
+    <ClCompile Include="I:\HCI-557-CG\13_Multi_Texturing\main_multi_texture.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\HCI557Common.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\controls.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\CoordSystem.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\GLObject.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\GLSphere.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\Shaders.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\Plane3D.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\Texture.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\GLAppearance.cpp"  />
+    <ClCompile Include="I:\HCI-557-CG\gl_common\camera.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Pei/Documents/Visual Studio 2015/CMake_Project/ZERO_CHECK.vcxproj">
+      <Project>B25932AE-78D6-36F4-B966-B87CBE474A46</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

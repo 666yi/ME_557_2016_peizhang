@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="I:\HCI-557-CG\13_Multi_Texturing\main_multi_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\HCI557Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\CoordSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\GLObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\GLSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\Shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\Plane3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\GLAppearance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\HCI-557-CG\gl_common\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\HCI557Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\CoordSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\Plane3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\HCI557Datatypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLAppearanceBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\HCI-557-CG\gl_common\GLObjects3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\HCI-557-CG\13_Multi_Texturing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE2E6C5D-D20F-36BF-BC37-A0953AD1B406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0F84D3F9-A763-36F1-9101-47C80DD1926A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
