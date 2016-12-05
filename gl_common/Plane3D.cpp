@@ -89,10 +89,10 @@ void GLPlane3D::draw(void)
 void GLPlane3D::initShader(void)
 {
     
-    if(!_apperance.exists())return;
+	if (!_appearance.exists())return;
     
     // This loads the shader program from a file
-    _program = _apperance.getProgram();
+	_program = _appearance.getProgram();
     
 
     glUseProgram(_program);
@@ -109,9 +109,9 @@ void GLPlane3D::initShader(void)
     
     ///////////////////////////////////////////////////////////////////////////////////////////////
     // Define the model view matrix.
-    _modelMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f)); // Create our model matrix which will halve the size of our model
+	_modelMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f))*glm::mat4_cast(angleAxis(3.14f/2, glm::vec3(1.0, 0.0, 0.0))); // Create our model matrix which will halve the size of our model
     addModelViewMatrixToProgram(_program);
-    
+
  
 
     glUseProgram(0);
@@ -198,6 +198,11 @@ void GLPlane3D::initVBO(void)
     delete normals;
 }
 
+void GLPlane3D::setModelMatrix(glm::mat4& modelmatrix)
+{
+	_modelMatrix = modelmatrix*glm::mat4_cast(angleAxis(3.14f / 2, glm::vec3(1.0, 0.0, 0.0)));
+
+}
 
 
 

@@ -118,13 +118,13 @@ bool GLObject::addModelViewMatrixToProgram(GLuint program)
  */
 void GLObject::setApperance(GLAppearance& apperance)
 {
-    if(_apperance.exists())
+    if(_appearance.exists())
     {
-        cerr << "[GLObject] - Did not set apperrance. The appearance for this object has already been set and cannot be changed without re-initialization" << endl;
+        cerr << "[GLObject] - Did not set appearance. The appearance for this object has already been set and cannot be changed without re-initialization" << endl;
         return;
     }
     
-    _apperance = apperance;
+    _appearance = apperance;
 }
 
 
@@ -135,9 +135,9 @@ Returns the shader program of this object
 */
 int GLObject::getProgram(void)
 {
-    if(_apperance.exists())
+    if(_appearance.exists())
     {
-        return _apperance.getProgram();
+        return _appearance.getProgram();
     }
     else
         return 0;

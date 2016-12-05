@@ -149,7 +149,7 @@ protected:
     
     
     // An apperance object
-    GLAppearance            _apperance;
+    GLAppearance            _appearance;
     
 };
 

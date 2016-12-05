@@ -67,10 +67,10 @@ void GLSphere3D::init(void)
 void GLSphere3D::initShader(void)
 {
     
-    if(!_apperance.exists())return;
+    if(!_appearance.exists())return;
     
     // This loads the shader program from a file
-    _program = _apperance.getProgram();
+    _program = _appearance.getProgram();
     
 
     glUseProgram(_program);

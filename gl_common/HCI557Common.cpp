@@ -192,7 +192,7 @@ GLFWwindow* initWindow(void)
     
     
     // Create a window to put our stuff in.
-    window = glfwCreateWindow(800, 600, "OpenGL Window for 557", NULL, NULL);
+	window = glfwCreateWindow(1024, 768, "Deer Run", NULL, NULL);
     
     // If the window fails to be created, print out the error, clean up GLFW and exit the program.
     if( window == NULL ){

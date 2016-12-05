@@ -21,6 +21,7 @@
 // GLM include files
 #define GLM_FORCE_INLINE
 #include <glm/glm.hpp>
+#include <glm/gtc/quaternion.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
 
@@ -47,8 +48,8 @@ public:
      Init the geometry object
      */
     void init(void);
-    
-    
+
+	void setModelMatrix(glm::mat4& modelmatrix);
     
     /*!
      Draw the objects
@@ -58,7 +59,7 @@ public:
     
 protected:
     
-    
+	glm::mat4      _modelMatrix; // Store the model matrix
     
     /*!
      Create the vertex buffer object for this element
@@ -91,7 +92,7 @@ protected:
     vector<Vertex>          _vertex_points;
     vector<Vertex>          _normal_vectors;
     int                     _num_vertices;
-    
+//	glm::mat4               _modelMatrix; // Store the model matrix
     int                     _tex_idx;
     
     // the program
