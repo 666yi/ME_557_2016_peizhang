@@ -767,7 +767,7 @@ int main( void )
 								bump_flag = true;
 								last_bump_tree = i;
 								bump++;
-								cout << "You bump into tree at " << -bird_forward << endl;
+								cout << "You bump into tree at " << bird_forward << endl;
 							}								
 						}
 						if (tree_loc[i] < bird_forward+2){
@@ -803,7 +803,7 @@ int main( void )
 					if (bump<3) sphere_heart_2->draw();
 					pre_time = time;
 					if (bump >= 3) {
-						cout << "Your Kept Running for " << -bird_forward <<" Meters !"<< endl<<endl;
+						cout << "Your Kept Running for " << bird_forward <<" Meters !"<< endl<<endl;
 						scene = 3;
 						appearance_tex = new GLAppearance("../../data/shaders/multi_texture.vs", "../../data/shaders/multi_texture.fs");
 						GLDirectLightSource  light_source_tex;
