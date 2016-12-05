@@ -1,1 +1,5 @@
-# ME_557_2016_peizhang
+## Code for HCI/ME/CS/CprE 557 Computer Graphics
+
+## Final Project
+Demo Video Link: https://youtu.be/SHiN05V9Hjw
+
