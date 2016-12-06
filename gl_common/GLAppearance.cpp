@@ -15,7 +15,7 @@
 string GLMaterial::_glsl_names[6] = { "ambient", "diffuse", "specular", "shininess", "emissive", "transparency" };
 string GLMaterial::_glsl_struct = "allMaterials";
 
-string GLLightSource::_glsl_names[5] = { "specular_intensity", "diffuse_intensity", "ambient_intensity", "attenuationCoefficient", "light_position" };
+string GLLightSource::_glsl_names[6] = { "specular_intensity", "diffuse_intensity", "ambient_intensity", "attenuationCoefficient", "light_position", "light_color" };
 string GLLightSource::_glsl_object = "allLights";
 
 string GLSpotLightSource::_glsl_names[4] = { "cone_angle", "inner_cone_angle", "outer_cone_angle", "cone_direction" };
@@ -166,6 +166,8 @@ bool GLLightSource::addVariablesToProgram(GLuint program, int variable_index)
 	_lightPosIdx = glGetUniformLocation(program, GetVariableName(_glsl_object, _glsl_names[4], variable_index).c_str());
 	checkUniform(_lightPosIdx, GetVariableName(_glsl_object, _glsl_names[4], variable_index));
 
+	_light_colorIdx = glGetUniformLocation(program, GetVariableName(_glsl_object, _glsl_names[5], variable_index).c_str());
+	checkUniform(_light_colorIdx, GetVariableName(_glsl_object, _glsl_names[5], variable_index));
 
 	// Send the light information to your shader program
 	glUniform1f(_ambientIdx, _ambient_intensity);
@@ -173,7 +175,7 @@ bool GLLightSource::addVariablesToProgram(GLuint program, int variable_index)
 	glUniform1f(_specularIdx, _specular_intensity);
 	glUniform1f(_attenuation_coeffIdx, _attenuation_coeff);
 	glUniform4fv(_lightPosIdx, 1, &_lightPos[0]);
-
+	glUniform3fv(_light_colorIdx, 1, &_light_color[0]);
 	// disable the program
 	// glUseProgram(0);
 
@@ -196,7 +198,7 @@ bool GLLightSource::dirty(GLuint program)
 	glUniform1f(_specularIdx, _specular_intensity);
 	glUniform1f(_attenuation_coeffIdx, _attenuation_coeff);
 	glUniform4fv(_lightPosIdx, 1, &_lightPos[0]);
-
+	glUniform3fv(_light_colorIdx, 1, &_light_color[0]);
 	// disable the program
 	glUseProgram(0);
 
@@ -248,10 +250,11 @@ bool GLSpotLightSource::addVariablesToProgram(GLuint program, int variable_index
 	GLLightSource::addVariablesToProgram(program, variable_index);
 
 	// Send the light information to your shader program
-	glUniform1f(_cone_angleIdx, _cone_angle);
+	glUniform1f(_cone_angleIdx, _cone_angle);	
 	glUniform1f(_inner_cone_angleIdx, _inner_cone_angle);
 	glUniform1f(_outer_cone_angleIdx, _outer_cone_angle);
 	glUniform3fv(_cone_directionIdx, 1, &_cone_direction[0]);
+	
 
 	return true;
 }
@@ -276,6 +279,7 @@ bool GLSpotLightSource::dirty(GLuint program)
 	glUniform1f(_inner_cone_angleIdx, _inner_cone_angle);
 	glUniform1f(_outer_cone_angleIdx, _outer_cone_angle);
 	glUniform3fv(_cone_directionIdx, 1, &_cone_direction[0]);
+//	glUniform3fv(_light_colorIdx, 1, &_light_color[0]);
 
 	// disable the program
 	glUseProgram(0);

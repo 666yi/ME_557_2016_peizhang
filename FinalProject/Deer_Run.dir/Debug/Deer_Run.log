@@ -1,48 +1,52 @@
-﻿Build started 12/4/2016 11:25:08 PM.
+﻿Build started 12/6/2016 12:51:12 AM.
      1>Project "C:\Users\Pei\Documents\Visual Studio 2013\Projects\FinalProject\Deer_Run.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"I:\HCI-557-CG\SDK\include" /I"I:\HCI-557-CG\Deer_Run\..\gl_common" /I"I:\HCI-557-CG\Deer_Run\..\source" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Deer_Run.dir\Debug\\" /Fd"Deer_Run.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "I:\HCI-557-CG\Deer_Run\main.cpp"
          main.cpp
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(272): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(291): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(295): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(371): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(409): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(423): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(430): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(431): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(432): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(441): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(276): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(334): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(338): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(420): warning C4305: '=' : truncation from 'double' to 'float'
      1>I:\HCI-557-CG\Deer_Run\main.cpp(455): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(486): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(511): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(513): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(469): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(476): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(477): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(478): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(487): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(501): warning C4305: '=' : truncation from 'double' to 'float'
      1>I:\HCI-557-CG\Deer_Run\main.cpp(532): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(534): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(557): warning C4305: '=' : truncation from 'double' to 'float'
      1>I:\HCI-557-CG\Deer_Run\main.cpp(559): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(564): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(568): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(570): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(571): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(576): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(579): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(584): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(586): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(587): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(590): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(592): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(593): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(613): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(578): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(580): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(600): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(602): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(609): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(613): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(628): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(633): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(637): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(639): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(640): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(646): warning C4305: '=' : truncation from 'double' to 'float'
      1>I:\HCI-557-CG\Deer_Run\main.cpp(649): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(650): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(651): warning C4305: '=' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(661): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(662): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(663): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(695): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(709): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(716): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>I:\HCI-557-CG\Deer_Run\main.cpp(782): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(654): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(656): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(657): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(660): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(662): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(663): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(685): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(721): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(722): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(723): warning C4305: '=' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(733): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(734): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(735): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(767): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(782): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(789): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>I:\HCI-557-CG\Deer_Run\main.cpp(856): warning C4305: 'argument' : truncation from 'double' to 'const float'
        Link:
          E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pei\Documents\Visual Studio 2013\Projects\FinalProject\Debug\Deer_Run.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "I:\HCI-557-CG\SDK\lib\glew32.lib" "I:\HCI-557-CG\SDK\lib\Release\glfw.lib" glu32.lib opengl32.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Pei/Documents/Visual Studio 2013/Projects/FinalProject/Debug/Deer_Run.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Pei/Documents/Visual Studio 2013/Projects/FinalProject/Debug/Deer_Run.lib" /MACHINE:X64  /machine:x64 Deer_Run.dir\Debug\main.obj
          Deer_Run.dir\Debug\HCI557Common.obj
@@ -63,4 +67,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.51
+Time Elapsed 00:00:01.02

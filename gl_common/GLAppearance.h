@@ -110,7 +110,7 @@ protected:
 	static string      _glsl_names[];
 	static string      _glsl_object;
 #else
-	const string       _glsl_names[5] = { "specular_intensity", "diffuse_intensity",  "ambient_intensity",  "attenuationCoefficient", "light_position"};
+	const string       _glsl_names[6] = { "specular_intensity", "diffuse_intensity",  "ambient_intensity",  "attenuationCoefficient", "light_position", "light_color"};
 	const string       _glsl_object = "allLights";
 #endif
 
@@ -123,7 +123,7 @@ public:
 
 	// The position of the light source
 	glm::vec4   _lightPos;
-
+	glm::vec3	_light_color;
 
 	// Attentuation
 	float       _attenuation_coeff; // the strength of the attenuation
@@ -135,11 +135,13 @@ public:
 	int         _ambientIdx;
 	int         _lightPosIdx;
 	int         _attenuation_coeffIdx;
+	int         _light_colorIdx;
 
 	GLLightSource() :
 		_specular_intensity(1.0), _diffuse_intensity(1.0), _ambient_intensity(1.0)
 	{
 		_lightPos = glm::vec4(0.0, 0.0, 0.0, 1.0);
+		_light_color = glm::vec3(1.0, 1.0, 1.0);
 		_specularIdx = _diffuseIdx = _ambientIdx = _attenuation_coeffIdx = -1;
 
 	}
@@ -231,7 +233,7 @@ protected:
 #ifdef WIN32
 	static string      _glsl_names[];
 #else
-	const string       _glsl_names[4] = { "cone_angle","inner_cone_angle","outer_cone_angle", "cone_direction"};
+	const string       _glsl_names[5] = { "cone_angle","inner_cone_angle","outer_cone_angle", "cone_direction", };
 #endif
 
 public:
@@ -248,6 +250,7 @@ public:
 	int			_inner_cone_angleIdx;
 	int			_outer_cone_angleIdx;
 	int         _cone_directionIdx;
+
 
 	GLSpotLightSource()
 	{
